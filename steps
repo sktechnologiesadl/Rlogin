@@ -1,0 +1,6 @@
+#Step to execute the shell script
+
+chmod u+x filename
+chmod u+x rlogin.sh
+sh filename 
+sh rlogin.sh
