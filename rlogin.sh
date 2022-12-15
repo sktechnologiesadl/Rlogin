@@ -18,7 +18,7 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/'  /etc/ssh/sshd_
 systemctl restart sshd 
 
 #Reset the user password
-user=ec2-user
+user=root
 password=sktech123
 
 #passwd $user 
